@@ -1,0 +1,30 @@
+ /* theme 1 */
+:root{ 
+    --color:rgb(0, 0, 0);
+    --text-color:white;                       
+    --secCol:rgb(179, 156, 159);
+}
+
+/* :root{
+    --color:rgb(24, 90, 0);                      theme 2
+    --text-color:rgb(0, 0, 0);
+    --secCol:rgb(65, 207, 112);
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--secCol);
+}
+nav{
+    background-color: var(--color);
+    padding: 16px;
+}
+nav ul li{
+    color: var(--text-color);
+    display: inline;
+    padding: 23px; 
+}
+
+
