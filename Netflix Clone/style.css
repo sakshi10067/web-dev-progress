@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background-image: url(images/bg.jpg);
+  height: 80vh;
+  position: relative;
+}
+body {
+  background-color: black;
+}
+.main .box {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+nav {
+  max-width: 60vw;
+  margin: auto;
+  display: flex;
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
+
+.mail{
+    height: 30px;
+    width: 250px;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+nav img {
+  position: relative;
+  width: 114px;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  width: 114px;
+  z-index: 10;
+}
+.language {
+  background-color: rgb(0,0,0);
+  color: white;
+  padding: 8px 15px;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-size: 15px;
+  position: relative;
+  z-index: 20;    
+}
+
+.box {
+  height: 100%;
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font: 16px "Martel Sans", sans-serif;
+}
+
+.box:first-child {
+  font-weight: bolder;
+  font-size: 48px;
+}
+.redbutton {
+  background-color: red;
+  border-radius: 10%;
+  color: white;
+  height: 40px;
+  font-size: 15px;
+}
+.redbutton.two {
+  width: 150px;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.trending-now {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.trending-now h2 {
+  color: white;
+  font: 34px "Martel Sans", sans-serif;
+  font-weight: bolder;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.trending-now .movies {
+  display: flex;
+  overflow-x: auto;
+  justify-content: center;
+  height: 60vh;
+}
+.more {
+  background-color: black;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.more h2 {
+  color: white;
+  font: 34px "Martel Sans", sans-serif;
+  font-weight: bolder;
+  align-items: center;
+  margin-left: 20px;
+}
+.more .one {
+  background-color: rgb(0, 3, 55);
+  height: 35vh;
+  width: 25vw;
+  border-radius: 10px;
+  color: white;
+  font: 24px "Martel Sans", sans-serif;
+  text-align: center;
+}
+.more .one p {
+  font: 14px "Martel Sans", sans-serif;
+}
+.more .reasons {
+  display: flex;
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.freq {
+  background-color: black;
+  color: white;
+  font: 22px "Martel Sans", sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+}
+.freq .qone {
+  display: flex;
+  height: 7vh;
+  background-color: rgb(44, 43, 43);
+  border: 2px solid black;
+  font: 24px "Martel Sans", sans-serif;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  font: 17px "Martel Sans", sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: white;
+  margin-top: 20px;
+}
+
+.footer .all-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+ul {
+  list-style-type: none;
+  text-decoration: underline;
+}
+.last {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
