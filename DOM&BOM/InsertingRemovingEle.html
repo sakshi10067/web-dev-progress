@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box"> hey i am a box </div>
+    </div>
+</body>
+</html>
+
+<!-- In console 
+
+document.querySelector(".container").innerHTML
+'\n        <div class="box"> hey i am a box </div>\n    '
+document.querySelector(".container").innerText
+'hey i am a box'
+document.querySelector(".box").innerText
+'hey i am a box'
+document.querySelector(".BOX").innerText
+VM356:1 Uncaught TypeError: Cannot read properties of null (reading 'innerText')
+    at <anonymous>:1:31
+(anonymous) @ VM356:1
+document.querySelector(".box").outerHTML
+'<div class="box"> hey i am a box </div>'
+document.querySelector(".container").outerHTML
+'<div class="container">\n        <div class="box"> hey i am a box </div>\n    </div>'
+document.querySelector(".container").tagName
+'DIV'
+document.querySelector(".container").nodeName
+'DIV'
+document.querySelector(".container").textContent
+'\n         hey i am a box \n    '
+document.querySelector(".container").hidden
+false
+document.querySelector(".container").hidden=true
+true -->
